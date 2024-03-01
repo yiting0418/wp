@@ -11,6 +11,7 @@
             padding: 0;
             background-color: #f0f0f0;
             position: relative;
+            min-height: 100vh;
         }
         #container {
             width: 80%;
@@ -20,6 +21,7 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             animation: fadeIn 1s ease-out;
+            text-align: center;
         }
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -28,6 +30,9 @@
         h1, h2 {
             text-align: center;
             animation: slideIn 1s ease-out;
+            background-color: #555;
+            color: #fff; 
+            padding: 10px; 
         }
         @keyframes slideIn {
             from {
@@ -63,15 +68,18 @@
         .watermark {
             position: absolute;
             bottom: 10px;
-            right: 10px;
+            left: 0;
+            width: 100%;
+            text-align: center;
             font-size: 14px;
             color: rgba(0, 0, 0, 0.3);
         }
     </style>
+    <h1>About me</h1>
 </head>
 <body>
     <div id="container">
-        <h1>About me</h1>
+        
         <p>大家好，我是陳翊庭，出生於台北市。</p>
         <p>目前就讀於國立金門大學資訊工程系一年級。</p>
         <p>我於2004年4月18日出生。</p>
