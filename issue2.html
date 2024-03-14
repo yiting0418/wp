@@ -19,7 +19,10 @@
           if (!result) {
             event.preventDefault();
           }
-          else{window.location.href="success.html";}
+          else{
+            window.location.href="success.html";
+            event.preventDefault();
+          }
         });
       });
     </script>
