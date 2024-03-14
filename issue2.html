@@ -3,29 +3,48 @@
   <head>
     <title>註冊</title>
     <link href="style.css" type="text/css" rel="stylesheet" />
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        var clearButton = document.querySelector('.button[type="reset"]');
+        var submitButton = document.querySelector('.button[type="submit"]');
+        clearButton.addEventListener('click', function(event){
+          var result = confirm('確定要清除所有輸入的資料嗎？');
+          if (!result){
+            event.preventDefault();
+          }
+        });
+        
+        submitButton.addEventListener('click', function(event) {
+          var result = confirm('確定要送出資料嗎？');
+          if (!result) {
+            event.preventDefault();
+          }
+        });
+      });
+    </script>
   </head>
   <body>
     
     <div class="content">
       <h1>註冊</h1>
+      <br>
       <form>
         <label>姓名:</label>
         <input type="text" id="name" name="name"><br>
   
         <label >帳號: </label>
-        <input type="account" id="account" name="account"><br>
+        <input type="account"><br>
     
         <label >密碼: </label>
-        <input type="password" id="password" name="password"><br>
+        <input type="password"><br>
   
         <label >Email: </label>
-        <input type="email" id="email" name="email" require><br>
+        <input type="email" name="member_email" require><br>
   
         <label >性別: </label>
-        <select>
-          <option value="male">男</option>
-          <option value="female">女</option>
-        </select>
+        <input type="radio" name="gender">男
+        <input type="radio" name="gender">女
+        <input type="radio" name="gender">其他
         <br>
   
         <label >生日: </label>
@@ -39,18 +58,18 @@
         <br>
   
         <label >電話: </label>
-        <input type="tel" id="phone" name="phone" placeholder="0912-345-678"><br>
+        <input type="tel"  name="phone" placeholder="0912-345-678"><br>
   
         <label >喜歡的顏色: </label>
-        <input type="color" id="color" name="color" input class="color"><br>
+        <input type="color" name="color" input class="color"><br>
   
         <label >自我介紹: </label><br>
-        <textarea id="About" id="about" name="about" rows="5" cols="33" placeholder="請輸入自我介紹..."></textarea><br>
+        <textarea id="About" name="About" rows="5" cols="33" placeholder="請輸入自我介紹..."></textarea><br>
         
         <label >附件: </label>
-        <input type="file" id="file" name="file"><br>
+        <input type="file" name="file"><br>
   
-        <input type="checkbox" id="check" name="check">訂閱最新消息<br>
+        <input type="checkbox" name="yesorno">訂閱最新消息<br>
         
         <input class="button" type="reset" value="清除"> <input class="button" input type="submit" value="送出">
         
