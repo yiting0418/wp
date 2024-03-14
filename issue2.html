@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <title>註冊</title>
+    <style>
+      html{
+        font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+        background-color: #c1f3f6;
+        text-align: center;
+      }
+      body{
+        
+        min-height: 100vh;
+        line-height: 30px;
+      }
+      
+      .button{
+        background-color: #04b5be;
+        border: none;
+        color: white;
+        padding: 5px 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 20px 2px;
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: #013c3f;
+      }
+      .color {
+        padding: 0px 0px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>註冊</h1>
+    <form>
+      <label>姓名:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label >帳號: </label>
+      <input type="account"><br>
+  
+      <label >密碼: </label>
+      <input type="password"><br>
+
+      <label >Email: </label>
+      <input type="email" name="member_email" require><br>
+
+      <label >性別: </label>
+      <input type="radio" name="gender">男
+      <input type="radio" name="gender">女
+      <input type="radio" name="gender">其他
+      <br>
+
+      <label >生日: </label>
+      <input type="date"><br>
+
+      <label >血型: </label>
+      <input type="radio" name="bloodtype">A
+      <input type="radio" name="bloodtype">B
+      <input type="radio" name="bloodtype">AB
+      <input type="radio" name="bloodtype">O
+      <br>
+
+      <label >電話: </label>
+      <input type="tel"  name="phone" placeholder="0912-345-678"><br>
+
+      <label >喜歡的顏色: </label>
+      <input type="color" name="color" input class="color"><br>
+
+      <label >自我介紹: </label><br>
+      <textarea id="About" name="About" rows="5" cols="33">大家好，我是...</textarea><br>
+      
+      <label >附件: </label>
+      <input type="file" name="file"><br>
+
+      <input type="checkbox" name="yesorno">訂閱最新消息<br>
+      
+      <input class="button" type="reset" value="清除"> <input class="button" input type="submit" value="送出">
+      
+    </form> 
+  </body>
+</html>
