@@ -1,0 +1,79 @@
+.clientMenu{
+    padding-left:10px;
+    position: relative;
+    display: block;
+    text-align:center;
+}
+
+html{
+    background-color: #f3dcec;
+}
+
+.title {/*整個上方區塊*/
+    text-align: center;
+    background-image: url('title.png');
+}
+
+.container{
+    letter-spacing: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.button {font-size: 30px;}
+
+nav ul {/*第一層選單區域*/
+    letter-spacing: 5px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {/*第一層選單項目*/
+    display: inline-block;
+    float: none;
+    white-space: nowrap;
+}
+
+nav ul li a {/*最上層選單樣式*/
+    display: block;
+    color: #eee;
+    font-size: 24px;
+    line-height: 20px;
+    text-align:center;
+    background-color: #ea7abe;
+}
+
+nav a:hover {/*整個選單連結滑鼠移上去時的樣式*/
+    color: #FFF;
+    background-color: #555;
+    transition: all .2s ease;
+}
+
+nav ul li:hover>ul {/*選單滑鼠移上去的樣式變化*/
+/*display: inherit;*/
+    transition: all 300ms ease;
+    transform: scale(1,1);
+}
+.col {
+    flex: 1;
+}
+img{
+    width: 420px;
+}
+.buyBtn {
+    background-color: #f468bc;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+.buyBtn:hover {/*整個選單連結滑鼠移上去時的樣式*/
+    color: #FFF;
+    background-color: #555;
+    transition: all .2s ease;
+}
