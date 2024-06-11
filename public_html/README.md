@@ -19,7 +19,7 @@
 
 ### 系統功能分解圖：
 
-![image]([https://github.com/yiting0418/wp/blob/master/public_html/function.jpg])
+![image](https://github.com/yiting0418/wp/blob/master/public_html/function.jpg)
 
 ### 使用JavaScript部分：
 
