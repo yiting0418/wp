@@ -10,7 +10,7 @@
 - 支持訪客瀏覽，但必須登入才能下單(使用js提示訊息提醒用戶登入)
 
 ### 展示：
-- (https://dooooonut.000webhostapp.com/)
+- https://dooooonut.000webhostapp.com
 
 ## 前端部分
 使用 PHP、HTML、CSS、JavaScript 製作
