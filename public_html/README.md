@@ -18,10 +18,6 @@
 ### CSS設計：
 全部皆為原創，甜甜圈圖片引用自misterdonut官網
 
-### 系統功能分解圖：
-
-![image](https://github.com/yiting0418/wp/blob/master/public_html/function.jpg)
-
 ### 使用JavaScript部分：
 
 - 登入頁密碼顯示/隱藏
@@ -32,3 +28,7 @@
 - https://blog.csdn.net/yxys01/article/details/78043788
 - https://ithelp.ithome.com.tw/articles/10190062
 - https://ithelp.ithome.com.tw/articles/10280214
+
+### 系統功能分解圖：
+
+![image](https://github.com/yiting0418/wp/blob/master/public_html/function.jpg)
