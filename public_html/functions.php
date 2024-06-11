@@ -119,10 +119,7 @@ function createOrder(){
     global $dbConnection;
     if (empty($_POST['name'])){
         header("Location: /error.php");}
-    else if (empty($_POST['address'])){
-      //edit
-      echo'<script language="JavaScript">;alert("請先登入!");window.location.assign("https://dooooonut.000webhostapp.com/member.php");</script>';
-    }
+
     //儲存
     else{
         $sql = "INSERT INTO `id21649364_aa`.`order` (
