@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML Heart</h1>
+<canvas id="myCanvas" width="300" height="300" style="border:1px solid grey"></canvas>
+
+<script>
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+
+ctx.beginPath();
+ctx.moveTo(150, 200);
+
+ctx.bezierCurveTo(110, 170, 40, 170, 70, 100);
+ctx.bezierCurveTo(110, 40, 150, 100, 150, 120);
+
+ctx.bezierCurveTo(150, 100, 200, 50, 230, 100);
+ctx.bezierCurveTo(250, 170, 200, 170, 150, 200);
+
+ctx.strokeStyle = "pink";
+ctx.lineWidth = 4;
+ctx.stroke();
+</script> 
+
+</body>
+</html>
