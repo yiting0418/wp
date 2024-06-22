@@ -1,0 +1,48 @@
+body {
+  padding: 80px;
+  font: 16px Helvetica, Arial;
+} /*設定body的padding、字體大小和字型*/
+
+h1 {
+  font-size: 2em;
+} /*設定h1字體大小*/
+
+h2 {
+  font-size: 1.2em;
+} /*設定h2字體大小*/
+
+#posts {
+  margin: 0;
+  padding: 0;
+} /*設定margin和padding*/
+
+#posts li {
+  margin: 40px 0;
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  list-style: none;
+} /*設定項目格式*/
+
+#posts li:last-child {
+  border-bottom: none;
+} /*設定項目格式*/
+
+textarea {
+  width: 500px;
+  height: 300px;
+} /*設定輸入框高度和寬度*/
+
+input[type=text],
+textarea {
+  border: 1px solid #eee;
+  border-top-color: #ddd;
+  border-left-color: #ddd;
+  border-radius: 2px;
+  padding: 15px;
+  font-size: .8em;
+} /*設定輸入框顏色、padding、字體大小*/
+
+input[type=text] {
+  width: 500px;
+} /*設定type=text寬度*/
