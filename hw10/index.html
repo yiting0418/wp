@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <title>ChatGPT Interface</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>ChatDUCK <img src="img/gua.png" width="100" height="100"></h1>
+  </div>
+  <nav>
+    <select id="menu">
+      <option value="開始使用">開始使用</option>
+    </select>
+  </nav>
+  <main>
+    <textarea id="question" placeholder="請輸入問題..."></textarea>
+    <button onclick="chat()">送出問題</button>
+    <div id="response" placeholder="輸出文章"></div>
+  </main>
+  <footer></footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
