@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <title>SHA256 Hash</title>
+  <style>
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>SHA-256 Hash Generator</h2>
+  <input type="text" id="inputText" placeholder="Enter text here">
+  <button onclick="main()">Generate Hash</button>
+  <p>Hash: <span id="hash"></span></p>
+
+  <script src="sha.js"></script>
+  <script>
+    async function main() {
+      const input = document.getElementById('inputText').value;
+      const hex = await hash(input);
+      console.log(hex);
+      document.getElementById('hash').textContent = hex;
+    }
+  </script>
+</body>
+
+</html>
