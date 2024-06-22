@@ -56,3 +56,5 @@ Q8參考 [Python程式碼](https://github.com/ccc112b/py2cs/blob/master/03-%E4%B
   * [網頁](https://yiting0418.github.io/wp/hw10/index.html)
 ---
 ### 作業11 閱讀 denoApiService + Blog 的程式碼，並寫下理解然後為程式碼加上詳細的註解
+    註解blog的index.html、main.css、 main.js，皆已理解再行註解
+  * [程式碼](https://github.com/yiting0418/wp/tree/master/hw11)
