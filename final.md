@@ -44,7 +44,7 @@ Q8參考 [Python程式碼](https://github.com/ccc112b/py2cs/blob/master/03-%E4%B
   * [網頁](https://yiting0418.github.io/wp/hw8/hw8.html)
 ---
 
-### 作業9 有繪圖的網頁
+### 作業9 做一個有繪圖的網頁
     參考範例自己想，使用chatgpt協助優化繪製路徑
   * [原始碼](https://github.com/yiting0418/wp/blob/master/hw9.html)
   * [網頁](https://yiting0418.github.io/wp/hw9.html)
