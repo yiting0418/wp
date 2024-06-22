@@ -23,14 +23,14 @@ Q8參考 [Python程式碼](https://github.com/ccc112b/py2cs/blob/master/03-%E4%B
 ---
 ### 作業五 DOM的JavaScript操縱練習
     原創
-  *[原始碼](https://github.com/yiting0418/wp/tree/master/hw5)
-  *[網頁](https://yiting0418.github.io/wp/hw5/index.html)
+  * [原始碼](https://github.com/yiting0418/wp/tree/master/hw5)
+  * [網頁](https://yiting0418.github.io/wp/hw5/index.html)
 ---
 #### 作業六 側欄 -- CSS Transition 與 JavaScript
     參考w3schools
-  *[原始碼](https://github.com/yiting0418/wp/tree/master/hw6)
-  *[css網頁](https://yiting0418.github.io/wp/hw6/css.html)
-  *[JavaScript網頁](https://yiting0418.github.io/wp/hw6/js.html)
+  * [原始碼](https://github.com/yiting0418/wp/tree/master/hw6)
+  * [css網頁](https://yiting0418.github.io/wp/hw6/css.html)
+  * [JavaScript網頁](https://yiting0418.github.io/wp/hw6/js.html)
 
 ---
 ### 作業7 SHA256 雜湊介面
@@ -38,14 +38,14 @@ Q8參考 [Python程式碼](https://github.com/ccc112b/py2cs/blob/master/03-%E4%B
 ---
 ### 作業8 Layout 佈局
     自創，參考題目提供之w3schools佈局
-  *[原始碼](https://github.com/yiting0418/wp/tree/master/hw8)
-  *[網頁](https://yiting0418.github.io/wp/hw8/hw8.html)
+  * [原始碼](https://github.com/yiting0418/wp/tree/master/hw8)
+  * [網頁](https://yiting0418.github.io/wp/hw8/hw8.html)
 ---
 
 ### 作業9 有繪圖的網頁
     參考範例自己想，使用chatgpt協助優化繪製路徑
-  *[原始碼](https://github.com/yiting0418/wp/blob/master/hw9.html)
-  *[網頁](https://yiting0418.github.io/wp/hw9.html)
+  * [原始碼](https://github.com/yiting0418/wp/blob/master/hw9.html)
+  * [網頁](https://yiting0418.github.io/wp/hw9.html)
 
 ---
 ### 作業10 用groq大語言模型LLM做一個簡單的網頁應用
