@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>按鈕放大!</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    button {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <button onclick="bigger()">Click me!</button>
+  <script>
+    function bigger() {
+      width += 10;
+      height += 10;
+      b.style.width = width + 'px';
+      b.style.height = height + 'px';
+      b.style.left = (window.innerWidth - width) / 2 + 'px';
+      b.style.top = (window.innerHeight - height) / 2 + 'px';
+    }
+
+    let width = 60;
+    let height = 60;
+    const b = document.querySelector('button');
+    b.style.left = (window.innerWidth - width) / 2 + 'px';
+    b.style.top = (window.innerHeight - height) / 2 + 'px';
+  </script>
+</body>
+
+</html>
