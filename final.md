@@ -34,7 +34,9 @@ Q8參考 [Python程式碼](https://github.com/ccc112b/py2cs/blob/master/03-%E4%B
 
 ---
 ### 作業7 SHA256 雜湊介面
-
+    參考上課範例，ChatGPT協助debug
+  * [原始碼](https://github.com/yiting0418/wp/tree/master/hw7)
+  * [網頁](https://yiting0418.github.io/wp/hw7/sha.html)
 ---
 ### 作業8 Layout 佈局
     自創，參考題目提供之w3schools佈局
