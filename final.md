@@ -51,7 +51,8 @@ Q8參考 [Python程式碼](https://github.com/ccc112b/py2cs/blob/master/03-%E4%B
 
 ---
 ### 作業10 用groq大語言模型LLM做一個簡單的網頁應用
-
-
+    用老師的[程式碼](https://github.com/ccc112b/html2denojs/tree/master/%E5%B0%88%E6%A1%88/aichat/03b-queryGptBrowser)修改
+  * [原始碼](https://github.com/yiting0418/wp/tree/master/hw10)
+  * [網頁](https://yiting0418.github.io/wp/hw10/index.html)
 ---
 ### 作業11 閱讀 denoApiService + Blog 的程式碼，並寫下理解然後為程式碼加上詳細的註解
