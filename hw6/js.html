@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style> 
+#sidebar {
+  width: 50px;
+  height: 50px;
+  background: black;
+  color: #fff;
+  position: relative;
+  transition: width 2s, height 4s;
+  overflow: hidden;
+}
+
+#sidebar.expanded {
+  width: 130px;
+  height: 100vh;
+}
+
+.list h3 {
+  font-size: 32px;
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  cursor: pointer;
+}
+
+.list-content {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+#sidebar.expanded .list-content {
+  display: flex;
+}
+
+.list a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 5px 0;
+}
+
+.list a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<div class="list" id="sidebar">
+  <h3 onclick="show()">≡</h3>
+  <div class="list-content">
+    <a href="https://yiting0418.github.io/wp/issue1(1).html">自我介紹</a>
+    <a href="https://yiting0418.github.io/wp/issue2.html">註冊頁面</a>
+    <a href="https://yiting0418.github.io/wp/hw5/index.html">互動按鈕</a>
+    <a href="https://dooooonut.000webhostapp.com">網頁設計作品</a>
+  </div>
+</div>
+
+<script>
+    function show() {
+        var sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('expanded');
+    }
+</script>
+
+</body>
+</html>
