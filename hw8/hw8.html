@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background-color: #9ee3c3e0;
+      font-size: 18px;
+    }
+
+    .header {
+      background-color: #128750e0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #055f37d4;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .topnav a:hover {
+      background-color: #ecfbf4e0;
+      color: black;
+    }
+
+    .column {
+      float: left;
+    }
+
+    .column.side {
+      width: 25%;
+      padding-left: 50px;
+    }
+
+    .column.rightside {
+      width: 25%;
+      text-align: right;
+      padding-right: 50px;
+    }
+
+    /* Middle column */
+    .column.middle {
+      width: 50%;
+      text-align: center;
+    }
+
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      .column.side,
+      .column.middle {
+        width: 100%;
+      }
+    }
+
+    .footer {
+      background-color: #1c2a24d4;
+      height: 70px;
+      padding-top: 40px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: left;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.945);
+    }
+
+    .footer .watermark {
+      text-align: right;
+      padding-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="gua.png" width="100vh">
+  </div>
+
+  <div class="topnav">
+    <a href="https://github.com/yiting0418/wp/tree/master/hw8">Code</a>
+    <a href="https://github.com/yiting0418">Github</a>
+    <a href="https://www.instagram.com/cyttt___">Instagram</a>
+  </div>
+
+  <div class="row">
+    <div class="column side">
+      <h2>Side</h2>
+      <p>This is left column side.</p>
+    </div>
+
+    <div class="column middle">
+      <h1>About</h1>
+      <p>This is one of the homework for the web design course.</p>
+      <img src="ahhh.jpg" width="380px">
+    </div>
+
+    <div class="column rightside">
+      <h2>Side</h2>
+      <p>This is right column side.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="watermark">Copyright © yiting0418</div>
+  </div>
+
+</body>
+
+</html>
