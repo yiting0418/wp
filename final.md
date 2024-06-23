@@ -1,6 +1,6 @@
 # 期末作業
 ### 作業1 自我介紹網頁
-    將資料提供給chatgpt生成，然後我修改了排版和內容，並增加老師要求的樣式(圖片、ul、li、超連結等)
+    修改了排版和內容，並增加老師要求的樣式(圖片、ul、li、超連結等)
    * [網頁](https://yiting0418.github.io/wp/issue1(1).html)
    * [原始碼](https://github.com/yiting0418/wp/blob/master/issue1.html)
 ---
@@ -27,7 +27,7 @@ Q8參考 [Python程式碼](https://github.com/ccc112b/py2cs/blob/master/03-%E4%B
   * [網頁](https://yiting0418.github.io/wp/hw5/index.html)
 ---
 ### 作業6 側欄 -- CSS Transition 與 JavaScript
-    參考w3schools
+    自創，參考w3schools
   * [原始碼](https://github.com/yiting0418/wp/tree/master/hw6)
   * [css網頁](https://yiting0418.github.io/wp/hw6/css.html)
   * [JavaScript網頁](https://yiting0418.github.io/wp/hw6/js.html)
@@ -44,17 +44,17 @@ Q8參考 [Python程式碼](https://github.com/ccc112b/py2cs/blob/master/03-%E4%B
   * [網頁](https://yiting0418.github.io/wp/hw8/hw8.html)
 ---
 
-### 作業9 做一個有繪圖的網頁
-    參考範例自己想，使用chatgpt協助優化繪製路徑
+### 作業9 有繪圖的網頁
+    參考範例自創，使用chatgpt協助優化繪製路徑
   * [原始碼](https://github.com/yiting0418/wp/blob/master/hw9.html)
   * [網頁](https://yiting0418.github.io/wp/hw9.html)
 
 ---
 ### 作業10 用groq大語言模型LLM做一個簡單的網頁應用
-用老師的[程式碼](https://github.com/ccc112b/html2denojs/tree/master/%E5%B0%88%E6%A1%88/aichat/03b-queryGptBrowser)修改
+參考老師的[程式碼](https://github.com/ccc112b/html2denojs/tree/master/%E5%B0%88%E6%A1%88/aichat/03b-queryGptBrowser)修改
   * [原始碼](https://github.com/yiting0418/wp/tree/master/hw10)
   * [網頁](https://yiting0418.github.io/wp/hw10/index.html)
 ---
 ### 作業11 閱讀 denoApiService + Blog 的程式碼，並寫下理解然後為程式碼加上詳細的註解
-    註解blog的index.html、main.css、 main.js，皆已理解再行註解
+    註解blog的index.html、main.css、 main.js，因為上學期修過網頁設計進階，所以是全部理解才做註解
   * [程式碼](https://github.com/yiting0418/wp/tree/master/hw11)
