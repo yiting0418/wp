@@ -1,6 +1,6 @@
 const main = document.querySelector('main');
 
-let "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";
+let "AIzaSyBZGXMT-6YaZj3na3EAJ-i12z4hNw4j_OA";
 
 async function groqChat(q) {
     try {
@@ -48,3 +48,4 @@ async function chat() {
         responseNode.innerText = `抱歉，出現錯誤：${error.message}`;
     }
 }
+
